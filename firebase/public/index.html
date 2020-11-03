@@ -7,8 +7,6 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
     <meta http-equiv="Pragma" content="no-cache"/>
     <meta http-equiv="Expires" content="0"/>
-
-
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="BMAP.APP">
@@ -78,9 +76,31 @@
 </style>
 <script type="text/javascript">
 
+
+function findGetParameter(parameterName) {
+    var result = null,
+        tmp = [];
+    var items = location
+        .search
+        .substr(1)
+        .split("&");
+    for (var index = 0; index < items.length; index++) {
+        tmp = items[index].split("=");
+        if (tmp[0] === parameterName)
+            result = decodeURIComponent(tmp[1]);
+    }
+    return result;
+}
+
  function setFrameSrc(urlParam) {
             document.getElementById('coinectorFrame').src = 'https://coinector.app/#/' + urlParam;
         }
+
+ //var s = findGetParameter('search');
+ var s = window.location.pathname;
+if (s != null && s.trim().length > 3) {
+setTimeout(function(){setFrameSrc(s.substring(1));}, 500);}
+
 
     if(window.addEventListener){
 	  window.addEventListener("message", function(e){console.log(e);if(e.origin=='https://bitcoinmap.cash')setFrameSrc(e.data);}, false);
@@ -101,5 +121,8 @@
         height="100%"
         style="height:100%;width:100%;"
         src="https://bitcoinmap.cash/embedded.html?theme=dark"></iframe></span>
+<script type="javascript">
+
+</script>
 </body>
 </html>
