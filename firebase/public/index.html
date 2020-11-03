@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#38a2ac"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BMAP.APP">
+    <meta property="og:title" content="BMAP.APP">
+    <meta property="og:site_name" content="BMAP.APP">
+    <meta property="og:url" content="https://bmap.app">
+    <meta property="og:description"
+          content="BMAP.APP">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://bitcoinmap.cash/logo1200x630.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@BarrioBitcoin">
+    <meta name="twitter:title" content="BMAP.APP">
+    <meta name="twitter:description"
+          content="BMAP.APP">
+    <meta name="twitter:image" content="https://bitcoinmap.cash/logo1200x630.png">
+    <meta name="twitter:site" content="@BarrioBitcoin">
+    <meta name="twitter:app:name:googleplay" content="Coinector - CoinMap">
+    <meta name="twitter:app:id:googleplay" content="cash.bitcoinmap.coinector">
+    <script type="application/ld+json">{
+        "@context": "http://schema.org/",
+        "@type": "WebSite",
+        "name": "BMAP.APP",
+        "url": "https://bmap.app",
+        "description": "BMAP.APP"
+    }</script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#303030">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <link rel=”canonical” href=”https://bmap.app”/>
+    <meta name="description"
+          content="BMAP.APP">
+    <meta name="author" content="@BarrioBitcoin">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BMAP.APP</title>
+</head>
+<style>
+
+#coinector {position: absolute;left:0px;top:0px; width:33%; height:100%;}
+
+#bitcoinmap {position: absolute;left:33%;top:0px; width:67%; height:100%;}
+
+        @media screen and (max-width: 666px) {
+            #bitcoinmap {
+                display:none;
+            }
+            #coinector {
+                width:100%;
+             }
+        }
+
+
+
+</style>
+<script type="text/javascript">
+
+ function setFrameSrc(urlParam) {
+            document.getElementById('coinectorFrame').src = 'https://coinector.app/#/' + urlParam;
+        }
+
+    if(window.addEventListener){
+	  window.addEventListener("message", function(e){console.log(e);if(e.origin=='https://bitcoinmap.cash')setFrameSrc(e.data);}, false);
+	} else if (window.attachEvent){
+		window.attachEvent("message", function(e){console.log(e);if(e.origin=='https://bitcoinmap.cash')setFrameSrc(e.data);}, false);
+	}
+
+</script>
+<body>
+<span id="coinector"><iframe
+        id="coinectorFrame"
+        src="https://coinector.app" width="100%"
+        height="100%"
+        frameborder="0"
+        style="height:100%;width:100%;"></iframe></span>
+<span id="bitcoinmap"><iframe
+        frameborder="0" width="100%"
+        height="100%"
+        style="height:100%;width:100%;"
+        src="https://bitcoinmap.cash/embedded.html?theme=dark"></iframe></span>
+</body>
+</html>
