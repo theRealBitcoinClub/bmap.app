@@ -25,7 +25,7 @@
       },
       {
         "source": "/android",
-        "destination": "/https://play.google.com/store/apps/details?id=cash.bitcoinmap.coinector",
+        "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.coinector",
         "type": 301
       },
       {
@@ -49,18 +49,8 @@
         "type": 301
       },
       {
-        "source": "/trbc",
-        "destination": "/bitcoin-bch-dash-qr-code-generator?bch=qqp0kpntfxygx3e6d4mr9c5ef5ucxdcjk5zkgtevss&dash=XiHdw8SVoNtJqno6GnxKQS2Snxh7BTuR39",
-        "type": 301
-      },
-      {
-        "source": "/cafelemans",
-        "destination": "/bitcoin-bch-dash-qr-code-generator?bch=qqflpcrguu8wnud3yhy302jt9a4hht822gvzuuu374&dash=XkXE3JJCvNZqc6zXg664MNyYxRpPB4suZG",
-        "type": 301
-      },
-      {
         "source": "/qr",
-        "destination": "/bitcoin-bch-dash-qr-code-generator",
+        "destination": "https://bitcoinmap.cash/bitcoin-bch-dash-qr-code-generator",
         "type": 301
       },
       {
@@ -76,16 +66,6 @@
       {
         "source": "/enviar",
         "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdoF9GuW10T1VwD89kNYAK6EVOlqRCuDaIJB4RO34QvnzYsog/viewform",
-        "type": 301
-      },
-      {
-        "source": "/04242190606",
-        "destination": "/bitcoin-bch-dash-qr-code-generator?dash=XyjVDbwhSD5nWrjwNHWG8Aj2qFaCfZQnoo",
-        "type": 301
-      },
-      {
-        "source": "/04123335448",
-        "destination": "/bitcoin-bch-dash-qr-code-generator?dash=Xuj4jhHyyBen5UsBh3Py41GzMWsVhkhK5S",
         "type": 301
       },
       {
