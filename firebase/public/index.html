@@ -93,7 +93,7 @@ function findGetParameter(parameterName) {
 }
 
  function setFrameSrc(urlParam) {
-            document.getElementById('coinectorFrame').src = 'https://coinector.app/#/' + urlParam;
+            document.getElementById('coinectorFrame').src = '/coinmap/#/' + urlParam;
         }
 
  //var s = findGetParameter('search');
@@ -112,10 +112,11 @@ setTimeout(function(){setFrameSrc(s.substring(1));}, 500);}
 <body>
 <span id="coinector"><iframe
         id="coinectorFrame"
-        src="https://coinector.app" width="100%"
+        src="/coinmap" width="100%"
         height="100%"
         frameborder="0"
-        style="height:100%;width:100%;"></iframe></span>
+        style="height:100%;width:100%;">
+</iframe></span>
 <span id="bitcoinmap"><iframe
         frameborder="0" width="100%"
         height="100%"
