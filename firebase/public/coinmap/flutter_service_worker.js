@@ -5,7 +5,7 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "manifest.json": "375e8110a78faa4f34588b07be1f04a0",
 "jssocials-theme-classic.css": "1bccbed81405dc07bc8fcfa9fc674b35",
-"main.dart.js": "887edc5f9fa953977a80594b67f6cfe0",
+"main.dart.js": "fd580350d35d558701834454c2880e04",
 "share.html": "b047bdf35fd1e2cd36f8cbb74aa92d77",
 "font-awesome.min.css": "52e0947497241863100f97ca49093350",
 "assets/config/app_config.json": "8363d45c6bdc221fabbaae6d967bef36",
@@ -53,7 +53,7 @@ const RESOURCES = {
 "base.css": "d41d8cd98f00b204e9800998ecf8427e",
 "style.css": "fbd1463c8ebaf8de6571f6e07d9a446b",
 "jssocials.min.js": "81b383b7ec040274c775b85a465e3a06",
-"version.json": "5be4dda677b0fb9398bf08ea02f1d51e",
+"version.json": "6a1bb96d5824de7f64102605238810c6",
 "jssocials-theme-plain.css": "d435da0fe73e2cd36571fd9fdfde97fb"
 };
 
