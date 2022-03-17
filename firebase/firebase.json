@@ -125,7 +125,12 @@
       },
       {
         "source": "/teaser",
-        "destination": "https://bitcoinmap.cash/coinmap",
+        "destination": "https://coinmap.cash/",
+        "type": 301
+      },
+      {
+        "source": "/coinmap",
+        "destination": "https://coinmap.cash/",
         "type": 301
       }
     ]
