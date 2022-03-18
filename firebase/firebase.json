@@ -132,6 +132,26 @@
         "source": "/coinmap",
         "destination": "https://coinmap.cash/",
         "type": 301
+      },
+      {
+        "source": "/dl",
+        "destination": "https://therealbitcoinclub.github.io/",
+        "type": 301
+      },
+      {
+        "source": "/download",
+        "destination": "https://therealbitcoinclub.github.io/",
+        "type": 301
+      },
+      {
+        "source": "/install",
+        "destination": "https://therealbitcoinclub.github.io/",
+        "type": 301
+      },
+      {
+        "source": "/release",
+        "destination": "https://therealbitcoinclub.github.io/",
+        "type": 301
       }
     ]
   }
