@@ -147,6 +147,16 @@
         "source": "/release",
         "destination": "https://therealbitcoinclub.github.io/",
         "type": 301
+      },
+      {
+        "source": "/manager",
+        "destination": "https://github.com/theRealBitcoinClub/flutter_coinector/releases/tag/manager",
+        "type": 301
+      },
+      {
+        "source": "/apk",
+        "destination": "https://github.com/theRealBitcoinClub/flutter_coinector/releases/tag/public",
+        "type": 301
       }
     ]
   }
