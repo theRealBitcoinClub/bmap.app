@@ -167,6 +167,11 @@
         "source": "/geolocation",
         "destination": "https://geolocation-db.com/json/",
         "type": 301
+      },
+      {
+        "source": "/updatecheck",
+        "destination": "https://raw.githubusercontent.com/theRealBitcoinClub/flutter_coinector/master/dataUpdateIncrementVersion.txt",
+        "type": 301
       }
     ]
   }

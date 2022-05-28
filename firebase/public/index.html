@@ -78,6 +78,8 @@
 
 
 function findGetParameter(parameterName) {
+	console.log("START findGetParameter");
+	console.log(parameterName);
     var result = null,
         tmp = [];
     var items = location
@@ -85,26 +87,40 @@ function findGetParameter(parameterName) {
         .substr(1)
         .split("&");
     for (var index = 0; index < items.length; index++) {
+	    console.log("INDEX");
         tmp = items[index].split("=");
-        if (tmp[0] === parameterName)
+	    console.log(tmp[0]);
+        if (tmp[0] === parameterName) {
             result = decodeURIComponent(tmp[1]);
+            console.log(tmp[1]);
+        }
     }
+	console.log("END findGetParameter");
     return result;
 }
 
  function setFrameSrc(urlParam) {
+	        console.log("setFrameSrc");
+	        console.log(urlParam);
             document.getElementById('coinectorFrame').src = '/coinmap/#/' + urlParam;
         }
 
  //var s = findGetParameter('search');
  var s = window.location.pathname;
+	console.log("LOCATION");
+	console.log(s);
 if (s != null && s.trim().length > 3) {
-setTimeout(function(){setFrameSrc(s.substring(1));}, 500);}
+	console.log("TRIM");
+	console.log(s);
+    setTimeout(function(){setFrameSrc(s.substring(1));}, 500);
+    }
 
 
     if(window.addEventListener){
+	    console.log("addEventListener");
 	  window.addEventListener("message", function(e){console.log(e);if(e.origin=='https://bitcoinmap.cash')setFrameSrc(e.data);}, false);
 	} else if (window.attachEvent){
+	    console.log("attachEvent");
 		window.attachEvent("message", function(e){console.log(e);if(e.origin=='https://bitcoinmap.cash')setFrameSrc(e.data);}, false);
 	}
 

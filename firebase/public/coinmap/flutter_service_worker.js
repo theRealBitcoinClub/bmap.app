@@ -5,7 +5,7 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "manifest.json": "375e8110a78faa4f34588b07be1f04a0",
 "jssocials-theme-classic.css": "1bccbed81405dc07bc8fcfa9fc674b35",
-"main.dart.js": "ea820c4a0cce69c38d3477c301a2ca7a",
+"main.dart.js": "aa1dbe9bbfc0795ca6ead0202985d4e9",
 "share.html": "b047bdf35fd1e2cd36f8cbb74aa92d77",
 "font-awesome.min.css": "52e0947497241863100f97ca49093350",
 "assets/config/app_config.json": "0aabe708e8752241a4f8fd6caeba604e",
@@ -15,7 +15,7 @@ const RESOURCES = {
 "assets/assets/e.json": "d6c459e7a08137dce3ea1e2eb082d504",
 "assets/assets/au.json": "cc7fdba4b9c348f9b8af4f276a6a3768",
 "assets/assets/as.json": "90abb5b1546373a1aceea1918a95f26d",
-"assets/assets/places.json": "12e198113135504ce1ea9b12994573ea",
+"assets/assets/places.json": "4107c41732b6d494ede5aa40111a2c9b",
 "assets/assets/marker/hotel.png": "8bcbacd56e9273a88e74ece490ff0e1b",
 "assets/assets/marker/shop.png": "cd436a6d644673a145d78132128290da",
 "assets/assets/marker/hotel-md.png": "4f40440b8138d8926364a4f406647794",
@@ -98,7 +98,7 @@ const RESOURCES = {
 "base.css": "d41d8cd98f00b204e9800998ecf8427e",
 "style.css": "fbd1463c8ebaf8de6571f6e07d9a446b",
 "jssocials.min.js": "81b383b7ec040274c775b85a465e3a06",
-"version.json": "d5134e8603f970cdb6a9090fe44552ee",
+"version.json": "8f6bab5abd8beaf3de0ed559712adb31",
 "jssocials-theme-plain.css": "d435da0fe73e2cd36571fd9fdfde97fb"
 };
 
