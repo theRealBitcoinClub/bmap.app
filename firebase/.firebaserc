@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "bmap-70b47"
-  }
+    "default": "bmap-70b47",
+    "staging": "bmap-testing"
+  },
+  "targets": {}
 }

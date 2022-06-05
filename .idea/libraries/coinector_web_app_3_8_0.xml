@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="coinector-web-app-3.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/firebase/public/coinmap/coinector-web-app-3.8.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
