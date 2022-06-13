@@ -6,6 +6,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "headers": [ {
+      "source" : "**",
+      "headers" : [{
+        "key" : "Access-Control-Allow-Origin",
+        "value" : "*"
+      }]
+    }],
     "rewrites": [
       {
         "source": "**",
@@ -165,12 +172,17 @@
       },
       {
         "source": "/geolocation",
-        "destination": "https://geolocation-db.com/json/",
+        "destination": "https://geolocation-db.com/json/index.html",
         "type": 301
       },
       {
         "source": "/updatecheck",
         "destination": "https://raw.githubusercontent.com/theRealBitcoinClub/flutter_coinector/master/dataUpdateIncrementVersion.txt",
+        "type": 301
+      },
+      {
+        "source": "/geolocation2",
+        "destination": "https://api.ipgeolocation.io/ipgeo?apiKey=1eee688bf62d48979d54739f383d9364",
         "type": 301
       }
     ]
