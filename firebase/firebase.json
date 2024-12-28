@@ -32,7 +32,7 @@
       },
       {
         "source": "/android",
-        "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.coinector",
+        "destination": "https://bmap.app/app-bmap-coinector-690.zip",
         "type": 301
       },
       {
@@ -107,32 +107,17 @@
       },
       {
         "source": "/localbitcoinmap",
-        "destination": "https://play.google.com/store/apps/details?id=club.therealbitcoin.bchmap",
+        "destination": "https://bmap.app/app-bmap-coinector-690.zip",
         "type": 301
       },
       {
         "source": "/coinector",
-        "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.coinector",
-        "type": 301
-      },
-      {
-        "source": "/dashtext",
-        "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.dashtext",
-        "type": 301
-      },
-      {
-        "source": "/cointext",
-        "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.cointext",
-        "type": 301
-      },
-      {
-        "source": "/cointigo",
-        "destination": "https://play.google.com/store/apps/details?id=cash.bitcoinmap.cointigo",
+        "destination": "https://bmap.app/app-bmap-coinector-690.zip",
         "type": 301
       },
       {
         "source": "/teaser",
-        "destination": "https://coinmap.cash/",
+        "destination": "https://coinmapcash.web.app/",
         "type": 301
       },
       {
