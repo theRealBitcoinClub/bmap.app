@@ -47390,7 +47390,7 @@ else A.atc(this.b,s)},
 $S:1}
 A.a8l.prototype={
 $0(){var s=this.a.f
-A.jS(B.c.I(B.c.I("https://coinector.app/share.html?search=",A.qH(B.ul,s.f,B.Z,!1))+"&location=",A.qH(B.ul,s.as,B.Z,!1)),!1)
+A.jS(B.c.I(B.c.I("https://coinector.web.app/share.html?search=",A.qH(B.ul,s.f,B.Z,!1))+"&location=",A.qH(B.ul,s.as,B.Z,!1)),!1)
 return},
 $S:1}
 A.Nh.prototype={
@@ -47857,11 +47857,11 @@ EG(){var s=0,r=A.N(t.nq),q,p=this,o,n,m
 var $async$EG=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:m=A.a([],t.i)
 m.push("https://api.ipgeolocation.io/ipgeo?apiKey=1eee688bf62d48979d54739f383d9364")
-m.push("https://coinector.app/geolocation")
+m.push("https://coinector.web.app/geolocation")
 m.push("https://bmap.app/geolocation")
 m.push("https://geolocation-db.com/json/index.html")
 m.push("/geolocation")
-m.push("https://coinector.app/geolocation2")
+m.push("https://coinector.web.app/geolocation2")
 m.push("https://bmap.app/geolocation2")
 m.push("/geolocation2")
 for(o=p.id,n=o==null;n;)A.b5g(400)
